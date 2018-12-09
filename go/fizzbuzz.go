@@ -7,6 +7,8 @@ func fizzbuzz(n int) string {
 		return "Fizz"
 	} else if n == 5 {
 		return "Buzz"
+	} else if n == 15 {
+		return "Fizzbuzz"
 	} else {
 		return fmt.Sprintf("%d", n)
 	}
