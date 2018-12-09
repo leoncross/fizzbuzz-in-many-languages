@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func fizzbuzz(n int) string {
-	return fmt.Sprintf("%d", n)
+	if n == 3 {
+		return "Fizz"
+	} else {
+		return fmt.Sprintf("%d", n)
+	}
 }
 
 func main() {}
