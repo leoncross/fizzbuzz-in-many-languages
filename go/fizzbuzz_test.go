@@ -55,3 +55,12 @@ func TestFizzbuzzReturns_Buzz_on_10(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestFizzbuzzReturns_Fizzbuzz_on_45(t *testing.T) {
+	result := fizzbuzz(45)
+	expect := "Fizzbuzz"
+
+	if result != expect {
+		t.Fail()
+	}
+}
