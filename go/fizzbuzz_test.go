@@ -38,7 +38,7 @@ func TestFizzbuzzReturns_Fizzbuzz(t *testing.T) {
 	}
 }
 
-func TestFizzbuzzReturns_Fizz_on_9(t *testing.T) {
+func TestFizzbuzzReturns_Fizz_on_multiples_of_3(t *testing.T) {
 	result := fizzbuzz(9)
 	expect := "Fizz"
 
@@ -47,7 +47,7 @@ func TestFizzbuzzReturns_Fizz_on_9(t *testing.T) {
 	}
 }
 
-func TestFizzbuzzReturns_Buzz_on_10(t *testing.T) {
+func TestFizzbuzzReturns_Buzz_on_multiples_of_5(t *testing.T) {
 	result := fizzbuzz(10)
 	expect := "Buzz"
 
@@ -56,7 +56,7 @@ func TestFizzbuzzReturns_Buzz_on_10(t *testing.T) {
 	}
 }
 
-func TestFizzbuzzReturns_Fizzbuzz_on_45(t *testing.T) {
+func TestFizzbuzzReturns_Fizzbuzz_on_multiples_of_15(t *testing.T) {
 	result := fizzbuzz(45)
 	expect := "Fizzbuzz"
 
